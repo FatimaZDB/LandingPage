@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header id="header">
+        <div id="logo">
+        <img id="header-img" src="images/tree-logo.png" alt="logo image"> 
+        <h1 class="title">  Fractalia</h1>
+        </div>
+        <div id="menu">
+        <nav id="nav-bar">
+            <ul id="nav-link">
+                <li><a href="#about" class="nav-link">About US</a></li>
+                <li><a href="#fractals" class="nav-link">Fractals</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>  
+        </nav>
+        </div>
+    </header>
+            
+    <main>
+    
+        <section id="about">
+            <div id="divsection">      
+                <h1>About Us</h1>
+                <p>We are a store that creates and sells clothes and shoes with fractal design patterns. 
+                We create sustainable fashion garments made from recycled fabrics. Sustainable fashion, also called ethical, sustainable or slow fashion, is a current of thought, 
+                design, production and use of garments or accessories based on the following value criteria: 
+                 Minimizing environmental impact to preserve and improve the health of the planet.
+                <p class="p1">Discover our collection of t-shirts, trousers, sweatshirts, dresses, trainers and much more.</p>
+            </div>
+        </section>
+       
+
+        <section id="fractals">
+            <div id="divsection">
+            <h1>Fractals</h1>
+            <p>A fractal is a geometric object whose basic structure, fragmented or apparently irregular, is repeated at different scales. 
+                The term was proposed by mathematician Benoît Mandelbrot in 1975 and derives from the Latin fractus, meaning broken or fractured. 
+                Many natural structures are of the fractal type. The key mathematical property of a genuinely fractal object is that its fractal 
+                metric dimension is a rational number greater than its topological dimension.</p>
+                <div id="video-center"><iframe id="video" width="700" height="400" src="https://www.youtube.com/embed/w_MNQBWQ5DI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div id="divsection">
+            <h1>Products</h1>
+            <div class="productos">
+                <div class="item-productos">
+                    <h2>Tshirts</h2>
+                    <img src="images/tshirt.jpg" alt="Tshirts">
+                    <p>Discover our entire collection of t-shirts for men, women and unisex</p>
+                    <a href="">More</a>
+                </div>
+                <div class="item-productos">
+                    <h2>Trousers</h2>
+                    <img src="images/pants.jpg" alt="Trousers">
+                    <p>Discover our entire collection of trousers for men, women and unisex</p>
+                    <a href="">More</a>
+                </div>
+                <div class="item-productos">
+                    <h2>Trainers</h2>
+                    <img src="images/athletic-shoes.jpg" alt="Tainers">
+                    <p>Discover our entire collection of trainers for men, women and unisex</p>
+                    <a href="">More</a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div id="divsection">
+                <h1>Contact</h1>
+                <div id="contact-form">
+                <div id="contact1">
+                    <p>You can contact us through our social networks</p>
+                    <div id="contact-img">
+                    <a href="#"><img src="images/icono_fab.png"></a>
+                    <a href="#"><img src="images/icono_tw.png"></a>
+                    <a href="#"><img src="images/icono_in.png"></a>
+                    <a href="#"><img src="images/icono_inst.png"></a>
+                     </div>
+                </div>
+                <div id="contact1">
+                    <p>Or if you prefer you can send us a message</p>
+                    <form id="form" action="https://www.freecodecamp.org/email-submit" method="POST">
+                        <label for="name" id="name-label">Name </label>
+                        <input type="text" name="name" id="name" class="input-tab" placeholder="Enter your name"><br>
+                        <label for="email" id="email-label">Email</label>
+                        <input type="email" name="email" id="email" class="input-tab" placeholder="Enter your email" 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
+                        <label for="textarea" id="textarea-label">Message </label>
+                        <div class="input-tab"><textarea id="textarea" placeholder="Enter your message" rows="5" cols="50"></textarea></div>
+                        <div class="button-area"><input type="submit" form="form" id="submit" value="Submit"></div>                    
+                    </form>
+                </div>    
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Product Landing Page created by @FatimaZDB for FreeCodeCamp</p>
+    </footer>
+
+    
+</body>
+</html>
